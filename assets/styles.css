@@ -1,0 +1,40 @@
+
+body{
+    background-color: black;
+}
+
+main{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 2vw;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.img-container{
+    background-color: yellowgreen;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.image{
+    width: 70%;
+    padding: 20px 4vw;
+}
+
+.about-image{
+    padding-bottom: 5px;
+}
