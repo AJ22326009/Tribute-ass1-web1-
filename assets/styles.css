@@ -15,26 +15,60 @@ main{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+.title{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 0;
+    background-color: black;
+    padding: 4px;
+    color: yellow;
+    border: solid 2px yellowgreen;
 }
 
-p{
-    margin-bottom: 0;
+p,li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+ul{
+    text-align: left;
+    margin-left: 5%;
+}
+
+li{
+    margin-bottom: 20px;
 }
 
 .img-container{
     background-color: yellowgreen;
-    width: 90%;
+    margin: 2%;
     border-radius: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .image{
-    width: 70%;
+    width: 400px;
     padding: 20px 4vw;
 }
 
 .about-image{
     padding-bottom: 5px;
+}
+
+.elaboration{
+    width: 70vw;
+}
+
+a:visited{
+    color: yellowgreen;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+.image2{
+    width: 300px;
+    border: solid 2px yellowgreen;
+    margin: 30px auto;
 }
